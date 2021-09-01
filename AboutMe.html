@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <title>Melissa Syu</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Raleway", sans-serif
+    }
+
+    .m {
+      font-family: 標楷體;
+    }
+
+    .mb {
+      font-family: FangSong;
+      font-weight: bold;
+    }
+
+    .FSL {
+      font-size: large;
+    }
+
+    .FSLer {
+      font-size: larger;
+    }
+
+    hr.AboutMe {
+      border-top: 1px dashed red;
+    }
+  </style>
+  </head>
+
+  <body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left"
+      style="z-index:3;width:300px;" id="mySidebar"><br>
+      <div class="w3-container">
+        <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo
+          w3-padding w3-hover-grey"
+          title="close menu">
+          <i class="fa fa-remove"></i>
+        </a>
+        <img src="me\IsMe.jpg" style="width:69%;" class="w3-round"><br><br>
+        <h2><b><span class="mb">許絮婷</span></b><b><span class="FSL">Melissa Syu</span></b></h2>
+      </div>
+
+      <div class="w3-bar-block">
+        <a href="./AboutMe.html" onclick="w3_close()" class="w3-bar-item
+          w3-button w3-padding mb FSL w3-text-teal"
+          aria-current="page"><i class="fa fa-user fa-fw w3-margin-right"></i>關於我</a>
+        <a href="./portfolio_program.html" onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding mb FSL"
+          aria-current="page"><i class="fa fa-th-large fa-fw w3-margin-right"></i>作品集</a>
+      </div>
+      <hr>
+      <div class="w3-panel w3-large" style="margin: 0px 0px 0px 1px; color:
+        rgb(105, 75, 30);">
+        <div class="mb FSL">聯繫我</div>
+        <i class="fa fa-angle-down w3-hover-opacity"></i><i class="fa
+          fa-angle-down w3-hover-opacity"></i><i
+          class="fa fa-angle-down w3-hover-opacity"></i><i class="fa
+          fa-angle-down w3-hover-opacity"></i><i
+          class="fa fa-angle-down w3-hover-opacity"></i>
+      </div>
+      <div class="w3-panel w3-large" style="margin: 0px 0px 0px 2px; color:
+        rgb(105, 75, 30);">
+        <!--<a href="#contact" onclick="w3_close()" title="e-mail" class="w3-hover-opacity"><i
+          class="fa fa-envelope w3-hover-opacity"></i></a>-->
+        <a href="https://www.facebook.com/profile.php?id=100003116466892"
+          title="facebook" target="_blank"
+          class="w3-hover-opacity"><i class="fa fa-facebook-official
+            w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/sst_21827/" title="instagram"
+          target="_blank" class="w3-hover-opacity"><i
+            class="fa fa-instagram w3-hover-opacity"></i></a>
+      </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity"
+      onclick="w3_close()" style="cursor:pointer"
+      title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px" id="AMhome">
+
+      <!-- Header -->
+      <header id="portfolio">
+        <img src="me\IsMe.jpg" style="width:130px;"
+            class="w3-circle w3-right w3-margin w3-hide-large">
+        <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey"
+          onclick="w3_open()"><i
+            class="fa fa-bars"></i></span>
+        <div class="w3-container">
+          <h1><b><span class="FSLer" style="font-family:FangSong; margin-left:
+                10px;">關於我</span></b></h1>
+
+
+
+        </div>
+      </header>
+
+      <!-- about me-->
+      <div class="w3-container w3-padding-large" style="margin-bottom:32px"
+        id="about">
+        <!-- Images of Me and 履歷 -->
+        <div class="w3-row-padding w3-padding-16">
+          <div class="w3-col m6 FSL">
+            <div style="border: 5px #ee8c8c double; padding: 10px;">
+              <i class="fa fa-graduation-cap">
+                <div class="m" style="display: inline;">長榮大學 資訊暨設計學院學士班</div>
+              </i>
+              <br>
+              <i class="fa fa-graduation-cap">
+                <div class="m" style="display: inline;">長榮大學 資訊工程學系</div>
+              </i>
+              <br>
+              <i class="fa fa-graduation-cap">
+                <div class="m" style="display: inline;">東海大學 資訊工程學系</div>
+              </i>
+              <hr class="AboutMe">
+              <img src="icon\program.png" title="program" width="25px">
+              <div style="display: inline;"> Python, Java, C++&C#, HTML, CSS</div>
+              <br>
+              <img src="icon\lan.png" title="program" width="25px">
+              <div class="m" style="display: inline;">中文、英文</div>
+              <hr class="AboutMe">
+              <i class="fa fa-certificate">
+                <div style="display: inline; font-family: Raleway;"> TQC Word
+                  2016 - 實用級</div>
+              </i>
+              <br>
+              <i class="fa fa-certificate">
+                <div style="display: inline; font-family: Raleway;"> TQC+
+                  基礎物件導向程式語言 Java 8 - 單一級 </div>
+              </i>
+            </div>
+          </div>
+          <div class="w3-col m6" style="padding-top: 15px;">
+            <img src="me\20210819_023451.jpg" alt="Me" style="width: 100%;">
+          </div>
+        </div>
+
+        <!-- 自介-->
+        <div class="w3-row-padding w3-padding-16">
+          <h2 class="mb">自介</h2>
+          <div style="padding-left: 10px; padding-right: 5px;">
+            <div style="border: 2px #000000 dotted; padding: 10px;">
+              <div class="FSL m">目前就讀於東海大學資工系。起初就讀長榮大學資訊暨設計學院學士班，就是眾所皆知的大一不分系；大二才開始真正的成為資工人；後來到東海大學資工系持續地完成我的學士學位。<br>由於大一不分系，因此對於設計有一點的基礎，也會使用Adobe
+                Illustrator & Photoshop和一些簡易的編排，但不得不說我對顏色特別的不敏感。<br>為什麼選擇資工系？我得承認在起初對資訊這門學科是非常的不喜歡且厭惡的；在高中時接觸到大數據、物聯網和工業2.0，其中因為物聯網使我的電腦課被當掉，這使我被其他學校的好友恥笑了很久，後來課程進入到製作一個project，讓我開始有了成就感，最後回過頭深入了解物聯網究竟為何物，使一切都明亮了起來，進而最終選擇了資訊工程學系。</div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+        <!-- 證書-->
+        <h2 class="mb" style="margin-left: 10px;">證書</h2>
+        <div class="w3-row-padding w3-padding-16">
+          <div class="w3-col m6">
+            <h4>
+              <p style="margin-left: 10px;">TQC Word 2016 - 實用級</p>
+            </h4>
+            <img src="certificate\132200500003820 (1).jpg" alt="證書" style="width: 100%;">
+          </div>
+          <div class="w3-col m6">
+            <h4>
+              <p style="margin-left: 10px;">TQC+ 基礎物件導向程式語言 Java 8 - 單一級</p>
+            </h4>
+            <img src="certificate\232210100004360 (1).jpg" alt="證書" style="width: 93%;">
+          </div>
+        </div>
+        <hr>
+      </div>
+        <div class="w3-black w3-center w3-padding-24"><a href="#AMhome" class="w3-button w3-light-grey"><i
+          class="fa fa-arrow-up w3-margin-right"></i>To the top</a></div>
+        
+
+      <script>
+      // Script to open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+    </script>
+    </body>
+
+  </html>
