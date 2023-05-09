@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Melissa Syu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="my_style.css">
+  </head>
+
+  <body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+      <div class="w3-container">
+        <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+          title="close menu">
+          <i class="fa fa-remove"></i>
+        </a>
+        <img src="me\IsMe.jpg" style="width:69%;" class="w3-round"><br><br>
+        <h2><b><span class="mandarin-bold">許絮婷</span></b><span class="font-size-large">Melissa Syu</span></h2>
+      </div>
+
+      <div class="w3-bar-block">
+        <a href="./AboutMe.html" onclick="w3_close()" class="w3-bar-item
+          w3-button w3-padding mandarin-bold font-size-large w3-text-teal"
+          aria-current="page"><i class="fa fa-user fa-fw w3-margin-right"></i>關於我</a>
+        <a href="./portfolio.html" onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding mandarin-bold font-size-large"
+          aria-current="page"><i class="fa fa-th-large fa-fw w3-margin-right"></i>作品集</a>
+      </div>
+      <hr>
+      <div class="w3-panel w3-large" style="margin: 0px 0px 0px 1px; color:
+        rgb(105, 75, 30);">
+        <div class="mandarin-bold font-size-large">聯繫我</div>
+        <i class="fa fa-angle-down w3-hover-opacity"></i><i class="fa
+          fa-angle-down w3-hover-opacity"></i><i
+          class="fa fa-angle-down w3-hover-opacity"></i><i class="fa
+          fa-angle-down w3-hover-opacity"></i><i
+          class="fa fa-angle-down w3-hover-opacity"></i>
+      </div>
+      <div class="w3-panel w3-large" style="margin: 0px 0px 0px 2px; color:
+        rgb(105, 75, 30);">
+        <!--<a href="#contact" onclick="w3_close()" title="e-mail" class="w3-hover-opacity"><i
+          class="fa fa-envelope w3-hover-opacity"></i></a>-->
+        <a href="https://www.facebook.com/profile.php?id=100003116466892"
+          title="facebook" target="_blank"
+          class="w3-hover-opacity"><i class="fa fa-facebook-official
+            w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/sst_21827/" title="instagram"
+          target="_blank" class="w3-hover-opacity"><i
+            class="fa fa-instagram w3-hover-opacity"></i></a>
+      </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity"
+      onclick="w3_close()" style="cursor:pointer"
+      title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px" id="AMhome">
+
+      <!-- Header -->
+      <header id="portfolio">
+        <img src="me\IsMe.jpg" style="width:130px;"
+            class="w3-circle w3-right w3-margin w3-hide-large">
+        <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey"
+          onclick="w3_open()"><i
+            class="fa fa-bars"></i></span>
+        <div class="w3-container">
+          <h1><b><span class="font-size-larger" style="font-family:FangSong; margin-left:
+                10px;">關於我</span></b></h1>
+
+
+
+        </div>
+      </header>
+
+      <!-- about me-->
+      <div class="w3-container w3-padding-large" style="margin-bottom:32px"
+        id="about">
+        <!-- Images of Me and 履歷 -->
+        <div class="w3-row-padding w3-padding-16">
+          <div class="w3-col m6 font-size-large">
+            <div style="border: 5px #ee8c8c double; padding: 10px;">
+              <i class="fa fa-graduation-cap">
+                <div class="mandarin" style="display: inline;">東海大學 資訊工程學系 學士</div>
+              </i>
+              <hr class="AboutMe">
+
+              <img src="icon\program.png" title="program" width="25px">
+              <div style="display: inline;">
+                <span>Python, Java, C++</span>
+                </div>
+<br>
+                <img src="icon\program.png" title="program" width="25px">
+                <div style="display: inline;">
+                  <span>HTML, CSS, JavaScript, PHP, MySQL</span>
+                  </div>
+              
+                <hr class="AboutMe">
+              <img src="icon\lan.png" title="program" width="25px">
+              <div class="mandarin" style="display: inline;">中文、英文</div>
+              
+              <hr class="AboutMe">
+
+              <i class="fa fa-certificate">
+                <div style="display: inline;"> 
+                  <span>&nbsp;TQC Word 2016 - </span>
+                  <span class="mandarin">實用級</span>
+                  </div>
+              </i>
+              <br>
+              <i class="fa fa-certificate">
+                <div style="display: inline;"> 
+                  <span>&nbsp;TQC+</span>
+                  <span class="mandarin">基礎物件導向程式語言</span>
+                  <span> Java 8</span></div>
+              </i>
+            </div>
+          </div>
+          <div class="w3-col m6" style="padding-top: 15px;">
+            <img src="me\20210819_023451.jpg" alt="Me" style="width: 100%;">
+          </div>
+        </div>
+
+        <!-- 自介-->
+        <div class="w3-row-padding w3-padding-16">
+          <h2 class="mandarin-bold">自介</h2>
+          <div style="padding-left: 10px; padding-right: 5px;">
+            <div style="border: 2px #000000 dotted; padding: 10px;">
+              <div class="font-size-large">
+                <span class="mandarin">目前就讀東海大學資工系4年級。將於今年畢業。<br>
+                  我是個很勇於嘗試，且是個非常負責任的人，但也因為有著強大的責任心，這使我經常為了事情處理得不夠完善而感到焦慮，近幾年藉由閱讀來平衡心中焦慮感，同時也學習更有效率的解決問題、履行責任。<br>
+                  而作為一個資工系準畢業生，對於過去四年所學到的知識感到自豪與滿足，這些知識和技能的掌握讓我有實務上的經驗，儘管那些經驗不足以完全能應用於真實世界的工作場景，但是它們已經為我打下了穩固的基礎，讓我更容易地學習和適應未來的工作挑戰。<br>
+                  我相信這些經驗能夠幫助我更好地理解和解決實際的問題，提高我的專業能力和實踐能力。<br>
+                  同時，我也意識到隨著技術的不斷發展和變革，學習和成長是一個不斷進步的過程。因此，我會繼續不斷地學習和進修，保持開放的心態和積極的態度，以應對未來職場的挑戰和機遇。
+                  </span></div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+        <!-- 證書-->
+        <h2 class="mandarin-bold" style="margin-left: 10px;">證書</h2>
+        <div class="w3-row-padding w3-padding-16">
+          <div class="w3-col m6">
+            <h4>
+              <p style="margin-left: 10px;">TQC Word 2016 - <span class="mandarin">實用級</span></p>
+            </h4>
+            <img src="certificate\132200500003820 (1).jpg" alt="證書" style="width: 100%;">
+          </div>
+          <div class="w3-col m6">
+            <h4>
+              <p style="margin-left: 10px;">TQC+ <span class="mandarin">基礎物件導向程式語言</span> Java 8 - <span class="mandarin">單一級</span></p>
+            </h4>
+            <img src="certificate\232210100004360 (1).jpg" alt="證書" style="width: 93%;">
+          </div>
+        </div>
+        <hr>
+      </div>
+        <div class="w3-black w3-center w3-padding-24"><a href="#AMhome" class="w3-button w3-light-grey"><i
+          class="fa fa-arrow-up w3-margin-right"></i>To the top</a></div>
+        
+
+      <script>
+      // Script to open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+    </script>
+    </body>
+
+  </html>
