@@ -1,0 +1,28 @@
+body, h1, h3, h4, h5, h6 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.mandarin {
+    font-family: 標楷體;
+} /*m*/
+
+.mandarin-bold {
+    font-family: FangSong;
+    font-weight: bold;
+} /*mb*/
+
+.font-size-large {
+    font-size: large;
+} /*FSL*/
+
+.font-size-larger {
+    font-size: larger;
+} /*FSLer*/
+
+hr.AboutMe {
+    border-top: 1px dashed red;
+}
+
+div.portfolio-box {
+    height: 400px;
+}
